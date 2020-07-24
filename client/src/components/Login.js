@@ -21,7 +21,7 @@ export default function Login(props) {
       .post('/login', user)
       .then(res => {
         // set token to localstorage
-        localStorage.setItem('token', res.data.payload)
+        localStorage.setItem('token', JSON.stringify(res.data.payload))
         // redirect
         props.history.push('/bubbles')
       })
