@@ -26,10 +26,18 @@ In this project you will create a login page and request a token from the server
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
+
+4. Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 - [ ] Explain what a token is used for.
+        A token is used as an authorization number. With it, the application, allows the user to render private/gated information/components.
 - [ ] What steps can you take in your web apps to keep your data secure?
+        Authorization tokens/axiosWithAuth. Use gate keeping to store sensitive or private information within private routes.
 - [ ] Describe how web servers work.
+        Servers host information and data.
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+        Create, Read, Update, and Delete. Create = .post() // Read = .get() // Update = .put() // Delete = .delete()
 
 
 ## Project Set Up
